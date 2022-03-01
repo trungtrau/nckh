@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="main2.css">  
         <link href="/fontawesome-free-6.0.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="base.css"> 
     </head>
     <body>
         <div class="app">
@@ -12,19 +13,30 @@
                 <div class="grid">
                     <nav class="header_navbar">
                         <ul class="header_navbar-list">
-                            <li class="header_navbar-item header_navbar-item--separate">Trang chủ</li>
+                            <li class="header_navbar-item header_navbar-item--has--qr header_navbar-item--separate">
+                                Trang chủ
+                                <!-- header QR code -->
+                                <div class="header_qr">
+                                    <img src="bgauto.png" alt="" class="header_qr-img">
+                                    <div class="header_qr-app">
+                                        <a href="https://garatructuyen.com/" class="header_qr-app-link">
+                                            <img src="garatructuyen.png" alt="" class="header_qr-app-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="header_navbar-item header_navbar-item--separate">Sửa chữa nhanh</li>
                             <li class="header_navbar-item header_navbar-item--separate">Tổng kho phụ tùng</li>
                             <li class="header_navbar-item header_navbar-item--separate">Diễn đàn</li>
                             <li class="header_navbar-item">
-                                Kết nối
+                                <span class="header_navbar-tittle--no-pointer">Kết nối</span>
                                 <a href="" class="header_navbar-icon-link">
-                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="header_navbar-icon fa-brands fa-facebook"></i>
                                 </a>
                                 <a href="" class="header_navbar-icon-link">
-                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="header_navbar-icon fa-brands fa-instagram"></i>
                                 </a>
-
+                                
                             </li>
                         </ul>
                         <ul class="header_navbar-list">
